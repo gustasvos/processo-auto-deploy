@@ -1,0 +1,11 @@
+name: Build (develop)
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  build:
+    # steps de build/teste a definir

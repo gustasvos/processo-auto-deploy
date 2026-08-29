@@ -1,0 +1,11 @@
+name: Deploy (homologação)
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  deploy:
+    # steps de deploy a definir

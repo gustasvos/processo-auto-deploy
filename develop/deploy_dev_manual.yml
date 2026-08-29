@@ -1,0 +1,10 @@
+name: Deploy (homologação)
+
+on:
+  # caso seja ativado manualmente
+  workflow_dispatch:
+  
+
+jobs:
+  deploy:
+    # steps de deploy a definir

@@ -1,0 +1,17 @@
+name: Pipeline (main / produção)
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    # steps de teste a definir
+
+  build:
+    needs: test
+    # steps de build a definir
+
+  deploy:
+    needs: build
+    # steps de deploy a definir

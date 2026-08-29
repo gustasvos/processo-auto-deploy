@@ -1,0 +1,14 @@
+name: Rollback (produção)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Tag/versão a ser restaurada (ex: hash do commit estável)"
+        required: true
+        type: string
+
+jobs:
+  rollback:
+    # steps de deploy reaproveitando a versão informada, a definir
+    # nao entendi
